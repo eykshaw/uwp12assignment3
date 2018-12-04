@@ -1,0 +1,180 @@
+/* RESET */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+/* LAYOUT */
+
+.container {
+    width: 835px;  
+    margin: 100px auto 10px auto; 
+    overflow: auto;
+}
+
+.sidebar {
+    width: 225px; 
+    float: left; 
+    margin-right: 100px; 
+    text-align: center;
+}
+
+header {
+    margin-bottom: -10px;
+}
+
+header img {
+    width: 100%; 
+    border-radius: 100%; 
+}
+
+aside {
+    width: 200px; 
+    margin: auto; 
+}
+
+aside ul {
+    list-style-type: none; 
+    margin: 10px 0px 0px 0px; 
+    text-indent: 0px; 
+}
+
+aside a {
+    display: block;
+    height: 30px;
+    padding: 5px 0px 9px 0px;
+    box-sizing: border-box;
+    color: #272727;  
+}
+
+aside a:hover {
+    background-color: #d86c65; 
+    color: #fff; 
+}
+
+aside h3 {
+    margin-top: 5px;
+    margin-bottom: -5px; 
+}
+
+section {
+    width: 510px; 
+    float: left;
+}
+
+article { 
+    width: 100%;
+    border: solid 5px #dbd1c8; 
+    padding: 15px; 
+    box-sizing: border-box;
+    margin-bottom: 40px; 
+}
+
+.posttitle {
+    text-align: right; 
+    margin-bottom: 5px;
+}
+
+figure { 
+    text-align: center; 
+    margin: 5px 0px; 
+}
+
+img {
+    width: 230px;
+}
+
+#about img {
+    width: 31%;
+}
+
+p {
+    text-indent: 15px; 
+    margin: 7px 0px; 
+}
+
+ul {
+    list-style: circle; 
+    margin: 5px 0px 10px 35px; 
+    text-indent: 10px; 
+    line-height: 16pt; 
+}
+
+.resources {
+    margin-top: 20px; 
+    font-size: 9pt; 
+    text-align: center; 
+}
+
+footer {
+    float: right;
+    clear: left; 
+    width: 510px; 
+    text-align: center; 
+    font-size: 9pt;  
+}
+
+/* TEXT */
+
+
+body {
+    font-family: 'Helvetica', sans-serif; 
+    font-size: 11pt; 
+    font-weight: 200; 
+    color: #272727; 
+}
+
+h1, h2, h3 {
+    font-family: 'Abril Fatface', serif; 
+}
+
+h1 {
+    font-size: 26pt; 
+    color: #a31e21; 
+}
+
+h2 {
+    font-size: 18pt;
+    color: #db2826; 
+}
+
+h3 { 
+    font-size: 14pt; 
+    text-transform: capitalize; 
+    color: #ed5a58;
+}
+
+time {
+    line-height: 16pt;
+}
+
+a {
+    text-decoration: none; 
+    color: #d86c65; 
+}
+
+a:hover {
+    color: #b02219;
+}
