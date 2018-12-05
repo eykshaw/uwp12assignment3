@@ -38,11 +38,11 @@ footer, header, hgroup, menu, nav, section {
     width: 225px; 
     float: left; 
     margin-right: 100px; 
-    text-align: center;
+    text-align: left;
 }
 
 header {
-    margin-bottom: -10px;
+    margin-bottom: 20px;
 }
 
 header img {
@@ -51,32 +51,47 @@ header img {
 }
 
 aside {
-    width: 200px; 
-    margin: auto; 
+    width: 100%;  
+}
+
+aside h3 {
+    color: #272727;
+    margin-top: 10px; 
 }
 
 aside ul {
     list-style-type: none; 
-    margin: 10px 0px 0px 0px; 
-    text-indent: 0px; 
+    margin: 5px 0px 0px 15px; 
+}
+
+aside ul li {
+    margin-bottom: -5px; 
+}
+
+aside ul li a {
+    font-weight: 700; 
+    color: #ffe000 !important; 
 }
 
 aside a {
     display: block;
     height: 30px;
-    padding: 5px 0px 9px 0px;
     box-sizing: border-box;
     color: #272727;  
 }
 
-aside a:hover {
-    background-color: #d86c65; 
-    color: #fff; 
+aside ul li a:hover {
+    text-decoration-color: #000 !important; 
+    -webkit-transition: ease 0.8s; /* Safari */
+    transition: ease 0.8s;
 }
 
-aside h3 {
-    margin-top: 5px;
-    margin-bottom: -5px; 
+aside a:hover {
+    color: #272727; 
+    text-decoration: underline; 
+    text-decoration-color: #ffe000; 
+    -webkit-transition: ease 0.8s; /* Safari */
+    transition: ease 0.8s;
 }
 
 section {
@@ -86,14 +101,14 @@ section {
 
 article { 
     width: 100%;
-    border: solid 5px #dbd1c8; 
+    border: solid 5px #eaeaea; 
     padding: 15px; 
     box-sizing: border-box;
     margin-bottom: 40px; 
 }
 
 .posttitle {
-    text-align: right; 
+    text-align: left; 
     margin-bottom: 5px;
 }
 
@@ -103,15 +118,19 @@ figure {
 }
 
 img {
-    width: 230px;
+    padding: 10px;
+    box-sizing: border-box; 
 }
 
 #about img {
     width: 31%;
 }
 
+.caption {
+    margin-top: 0px; 
+}
+
 p {
-    text-indent: 15px; 
     margin: 7px 0px; 
 }
 
@@ -122,9 +141,45 @@ ul {
     line-height: 16pt; 
 }
 
+hr {
+    border-top: 0.5px solid #ffe000; 
+}
+
 .resources {
-    margin-top: 20px; 
-    font-size: 9pt; 
+    margin: 20px 0px; 
+    font-size: 8pt; 
+    text-align: left; 
+}
+
+.citation {
+    text-indent: -15px; 
+    padding-left: 15px !important; 
+}
+
+.col {
+    padding-bottom: 15px; 
+    margin: auto; 
+}
+
+.col3 {
+    width: 33%; 
+    float: left; 
+}
+
+.left {
+    width: 50%; 
+    float: left; 
+    text-align: left; 
+}
+
+.right {
+    width: 50%;
+    float: right; 
+    clear: right; 
+    text-align: right; 
+}
+
+.center {
     text-align: center; 
 }
 
@@ -141,40 +196,56 @@ footer {
 
 body {
     font-family: 'Helvetica', sans-serif; 
-    font-size: 11pt; 
+    font-size: 10pt; 
     font-weight: 200; 
     color: #272727; 
 }
 
 h1, h2, h3 {
-    font-family: 'Abril Fatface', serif; 
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 700; 
 }
 
 h1 {
     font-size: 26pt; 
-    color: #a31e21; 
+    color: #ffe000; 
 }
 
 h2 {
     font-size: 18pt;
-    color: #db2826; 
+    color: #000; 
+    text-decoration: underline; 
+    text-decoration-color: #ffe000; 
 }
 
 h3 { 
     font-size: 14pt; 
     text-transform: capitalize; 
-    color: #ed5a58;
+    color: #fff;
 }
 
 time {
-    line-height: 16pt;
+    line-height: 16pt; 
+    font-style: italic; 
 }
 
 a {
     text-decoration: none; 
-    color: #d86c65; 
+    color: #ffe000; 
 }
 
 a:hover {
-    color: #b02219;
+    color: #f4c500;
+    -webkit-transition: ease 0.8s; /* Safari */
+    transition: ease 0.8s;
+}
+
+em {
+    font-style: italic;  
+}
+
+.quote {
+    font-style: italic; 
+    color: #ffe000; 
+    text-align: center; 
 }
