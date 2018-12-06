@@ -70,14 +70,9 @@ aside ul li {
 
 aside ul li a {
     font-weight: 700; 
-    color: #ffe000 !important; 
-}
-
-aside a {
-    display: block;
-    height: 30px;
-    box-sizing: border-box;
-    color: #272727;  
+    color: #ffe000 !important;
+    text-decoration: underline;
+    text-decoration-color: #fff; 
 }
 
 aside ul li a:hover {
@@ -86,9 +81,17 @@ aside ul li a:hover {
     transition: ease 0.8s;
 }
 
+aside a {
+    display: block;
+    height: 30px;
+    box-sizing: border-box;
+    color: #272727;  
+    text-decoration: underline; 
+    text-decoration-color: #fff; 
+}
+
 aside a:hover {
     color: #272727; 
-    text-decoration: underline; 
     text-decoration-color: #ffe000; 
     -webkit-transition: ease 0.8s; /* Safari */
     transition: ease 0.8s;
