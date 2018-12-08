@@ -218,6 +218,7 @@ footer {
     width: 510px;
     text-align: center;
     font-size: 9pt;
+		margin-bottom: 20px;
 }
 
 /* TEXT */
@@ -283,3 +284,8 @@ blockquote {
     margin: 10px 0px 10px 20px;
     padding-left: 5px;
     border-left: 3px solid #ffe000;
+}
+
+.pagebutton {
+	font-weight: 700;
+}
