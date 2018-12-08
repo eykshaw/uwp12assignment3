@@ -9,8 +9,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -21,7 +21,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -29,15 +29,15 @@ footer, header, hgroup, menu, nav, section {
 /* LAYOUT */
 
 .container {
-    width: 835px;  
-    margin: 100px auto 10px auto; 
+    width: 835px;
+    margin: 100px auto 10px auto;
     overflow: auto;
 }
 
 .sidebar {
-    width: 225px; 
-    float: left; 
-    margin-right: 100px; 
+    width: 225px;
+    float: left;
+    margin-right: 100px;
     text-align: left;
 }
 
@@ -46,37 +46,37 @@ header {
 }
 
 header img {
-    width: 100%; 
-    border-radius: 100%; 
+    width: 100%;
+    border-radius: 100%;
 }
 
 aside {
-    width: 100%;  
+    width: 100%;
 }
 
 aside h3 {
     color: #272727;
-    margin-top: 10px; 
+    margin-top: 10px;
 }
 
 aside ul {
-    list-style-type: none; 
-    margin: 5px 0px 0px 15px; 
+    list-style-type: none;
+    margin: 5px 0px 0px 15px;
 }
 
 aside ul li {
-    margin-bottom: -5px; 
+    margin-bottom: -5px;
 }
 
 aside ul li a {
-    font-weight: 700; 
+    font-weight: 700;
     color: #ffe000 !important;
     text-decoration: underline;
-    text-decoration-color: #fff; 
+    text-decoration-color: #fff;
 }
 
 aside ul li a:hover {
-    text-decoration-color: #000 !important; 
+    text-decoration-color: #000 !important;
     -webkit-transition: ease 0.8s; /* Safari */
     transition: ease 0.8s;
 }
@@ -85,44 +85,58 @@ aside a {
     display: block;
     height: 30px;
     box-sizing: border-box;
-    color: #272727;  
-    text-decoration: underline; 
-    text-decoration-color: #fff; 
+    color: #272727;
+    text-decoration: underline;
+    text-decoration-color: #fff;
 }
 
 aside a:hover {
-    color: #272727; 
-    text-decoration-color: #ffe000; 
+    color: #272727;
+    text-decoration-color: #ffe000;
     -webkit-transition: ease 0.8s; /* Safari */
     transition: ease 0.8s;
 }
 
 section {
-    width: 510px; 
+    width: 510px;
     float: left;
 }
 
-article { 
+article {
     width: 100%;
-    border: solid 5px #eaeaea; 
-    padding: 15px; 
+    border: solid 5px #eaeaea;
+    padding: 15px;
     box-sizing: border-box;
-    margin-bottom: 40px; 
+    margin-bottom: 40px;
 }
 
 .posttitle {
-    text-align: left; 
+    text-align: left;
     margin-bottom: 5px;
 }
 
-figure { 
-    text-align: center; 
-    margin: 5px 0px; 
+.postbody a {
+		color: #a3a3a3;
+}
+
+.postbody a:hover {
+		color: #000;
+}
+
+.figure {
+    padding: 10px;
+		box-sizing: border-box;
+}
+
+figcaption {
+		font-style: italic;
+		font-size: 10px;
+		margin-top: 5px;
 }
 
 img {
-    padding: 10px;
-    box-sizing: border-box; 
+    box-sizing: border-box;
+		width: 100%;
 }
 
 #about img {
@@ -130,111 +144,123 @@ img {
 }
 
 .caption {
-    margin-top: 0px; 
+    margin-top: 0px;
 }
 
 p {
-    margin: 7px 0px; 
+    margin: 7px 0px;
 }
 
 ul {
-    list-style: circle; 
-    margin: 5px 0px 10px 35px; 
-    text-indent: 10px; 
-    line-height: 16pt; 
+    list-style: circle;
+    margin: 5px 0px 10px 35px;
+    text-indent: 10px;
+    line-height: 16pt;
 }
 
 hr {
-    border-top: 0.5px solid #ffe000; 
+    border-top: 0.5px solid #ffe000;
 }
 
 .resources {
-    margin: 20px 0px; 
-    font-size: 8pt; 
-    text-align: left; 
+		border-top: 2px solid #eaeaea;
+		padding-top: 5px;
+    margin: 20px 0px;
+    font-size: 8pt;
+    text-align: left;
+		color: #a3a3a3;
 }
 
 .citation {
-    text-indent: -15px; 
-    padding-left: 15px !important; 
+    text-indent: -15px;
+    padding-left: 15px !important;
+		padding-bottom: 3px;
+}
+
+.citation a {
+		color: #a3a3a3;
+}
+
+.citation a:hover {
+		color: #272727;
 }
 
 .col {
-    padding-bottom: 15px; 
-    margin: auto; 
+    padding-bottom: 15px;
+    margin: auto;
 }
 
 .col3 {
-    width: 33%; 
-    float: left; 
+    width: 33%;
+    float: left;
 }
 
 .left {
-    width: 50%; 
-    float: left; 
-    text-align: left; 
+    width: 50%;
+    float: left;
+    text-align: left;
 }
 
 .right {
     width: 50%;
-    float: right; 
-    clear: right; 
-    text-align: right; 
+    float: right;
+    clear: right;
+    text-align: right;
 }
 
 .center {
-    text-align: center; 
+    text-align: center;
 }
 
 footer {
     float: right;
-    clear: left; 
-    width: 510px; 
-    text-align: center; 
-    font-size: 9pt;  
+    clear: left;
+    width: 510px;
+    text-align: center;
+    font-size: 9pt;
 }
 
 /* TEXT */
 
 
 body {
-    font-family: 'Helvetica', sans-serif; 
-    font-size: 10pt; 
-    font-weight: 200; 
-    color: #272727; 
+    font-family: 'Helvetica', sans-serif;
+    font-size: 10pt;
+    font-weight: 200;
+    color: #272727;
 }
 
 h1, h2, h3 {
-    font-family: 'Montserrat', sans-serif; 
-    font-weight: 700; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 
 h1 {
-    font-size: 26pt; 
-    color: #ffe000; 
+    font-size: 26pt;
+    color: #ffe000;
 }
 
 h2 {
     font-size: 18pt;
-    color: #000; 
-    text-decoration: underline; 
-    text-decoration-color: #ffe000; 
+    color: #000;
+    text-decoration: underline;
+    text-decoration-color: #ffe000;
 }
 
-h3 { 
-    font-size: 14pt; 
-    text-transform: capitalize; 
-    color: #fff;
+h3 {
+    font-size: 14pt;
+    text-transform: capitalize;
+    color: #272727;
 }
 
 time {
-    line-height: 16pt; 
-    font-style: italic; 
+    line-height: 16pt;
+    font-style: italic;
 }
 
 a {
-    text-decoration: none; 
-    color: #ffe000; 
+    text-decoration: none;
+    color: #ffe000;
 }
 
 a:hover {
@@ -244,11 +270,16 @@ a:hover {
 }
 
 em {
-    font-style: italic;  
+    font-style: italic;
 }
 
-.quote {
-    font-style: italic; 
-    color: #ffe000; 
-    text-align: center; 
+u {
+		text-decoration: underline;
 }
+
+blockquote {
+    font-style: italic;
+    color: #272727;
+    margin: 10px 0px 10px 20px;
+    padding-left: 5px;
+    border-left: 3px solid #ffe000;
