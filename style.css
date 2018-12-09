@@ -29,15 +29,15 @@ footer, header, hgroup, menu, nav, section {
 /* LAYOUT */
 
 .container {
-    width: 835px;
+    width: 65%;
     margin: 100px auto 10px auto;
     overflow: auto;
 }
 
 .sidebar {
-    width: 225px;
+    width: 30%;
     float: left;
-    margin-right: 100px;
+    padding-right: 10%;
     text-align: left;
 }
 
@@ -98,7 +98,7 @@ aside a:hover {
 }
 
 section {
-    width: 510px;
+    width: 60%;
     float: left;
 }
 
@@ -179,10 +179,16 @@ hr {
 
 .citation a {
 		color: #a3a3a3;
+		word-wrap: break-word;
 }
 
 .citation a:hover {
 		color: #272727;
+}
+
+#disqus_thread {
+		border-top: 2px solid #eaeaea;
+		margin-top: 30px;
 }
 
 .col {
@@ -215,7 +221,7 @@ hr {
 footer {
     float: right;
     clear: left;
-    width: 510px;
+    width: 60%;
     text-align: center;
     font-size: 9pt;
 		margin-bottom: 20px;
@@ -237,7 +243,7 @@ h1, h2, h3 {
 }
 
 h1 {
-    font-size: 26pt;
+    font-size: 30pt;
     color: #ffe000;
 }
 
@@ -252,6 +258,11 @@ h3 {
     font-size: 14pt;
     text-transform: capitalize;
     color: #272727;
+}
+
+h4 {
+		font-weight: 700;
+		margin-top: 15px;
 }
 
 time {
